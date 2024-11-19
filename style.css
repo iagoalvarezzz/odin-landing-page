@@ -15,8 +15,7 @@ body{
   background: #1F2937;
   gap: 24px;
   margin: 0;
-  padding: 32px;
-  padding-left: 64px;
+  padding: 32px 64px;
   align-items: center;
 }
 
@@ -37,7 +36,7 @@ a{
   display: flex;
   align-items: center;
   background-color: #1F2937;
-  padding: 80px 32px 100px 64px;
+  padding: 80px 64px 100px;
   gap: 32px;
   justify-content: space-between;
 }
@@ -70,4 +69,33 @@ a{
   margin-top: 12px;
   border-radius: 10px;
   border: 0;
+}
+
+.random{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  margin: 32px;
+}
+
+.images{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  
+}
+
+.img{
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  text-align: center;
+}
+
+.images .img img{
+  border: 3px blue solid;
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
 }
