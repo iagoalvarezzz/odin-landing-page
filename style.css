@@ -83,7 +83,8 @@ a{
   display: flex;
   gap: 50px;
   justify-content: center;
-  
+  align-items: center;
+  margin-bottom: 75px;
 }
 
 .img{
@@ -99,3 +100,25 @@ a{
   width: 150px;
   border-radius: 15px;
 }
+
+.quote{
+  background-color: #E5E7EB; 
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 75px;
+}
+
+.quote div{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote h6{
+  text-align: right;
+  font-style: normal;
+  margin: 0;
+}
+
+
+
