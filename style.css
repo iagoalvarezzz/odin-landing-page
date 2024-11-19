@@ -15,7 +15,8 @@ body{
   background: #1F2937;
   gap: 24px;
   margin: 0;
-  padding: 16px;
+  padding: 32px;
+  padding-left: 64px;
   align-items: center;
 }
 
@@ -34,10 +35,39 @@ a{
 
 .hero{
   display: flex;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 80px 32px 100px 64px;
+  gap: 32px;
+  justify-content: space-between;
 }
 
 .hero img{
   background: grey;
   height: 200px;
-  width: 400px;
+  width: 500px;
+  flex-shrink: 0;
+  color: white;
+}
+
+.main{
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.second{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero button{
+  background-color: #3882F6;
+  color: white;
+  font-weight: 900;
+  padding: 8px 36px;
+  font-size: 18px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: 0;
 }
