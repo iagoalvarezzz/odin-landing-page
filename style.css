@@ -145,3 +145,11 @@ h5{
 .action p{
   margin: 0;
 }
+
+.footer{
+  margin-top: auto;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 40px;
+}
