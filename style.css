@@ -32,3 +32,12 @@ a{
   font-size: 18px;
 }
 
+.hero{
+  display: flex;
+}
+
+.hero img{
+  background: grey;
+  height: 200px;
+  width: 400px;
+}
