@@ -60,7 +60,7 @@ a{
   color: #E5E7EB;
 }
 
-.hero button{
+button{
   background-color: #3882F6;
   color: white;
   font-weight: 900;
@@ -95,7 +95,7 @@ a{
 }
 
 .images .img img{
-  border: 3px blue solid;
+  border: 3px #3882F6 solid;
   height: 150px;
   width: 150px;
   border-radius: 15px;
@@ -120,5 +120,28 @@ a{
   margin: 0;
 }
 
+.action{
+  background-color: #3882F6;
+  display: flex;
+  padding: 50px 100px;
+  margin: 50px;
+  align-self: center;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+}
 
+.action button{
+  border: white 2px solid;
+}
 
+h5{
+  font-size: 22px;
+  margin: 0;
+}
+
+.action p{
+  margin: 0;
+}
